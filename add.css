@@ -1,0 +1,12 @@
+#c {
+    background-color: grey;
+    margin-top: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+  }
+
+.canvas-container{
+   margin: 0 auto
+}
