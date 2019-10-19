@@ -40,9 +40,7 @@ function search(searchTerm) {
         imageSection.innerHTML =''
         images.map(image=>{
             const imageElement = document.createElement('img')
-            imageElement.src = image.largeImageURL
-            imageElement.crossOrigin="anonymous"      
-            console.log(imageElement)      
+            imageElement.src = image.largeImageURL          
             imageSection.appendChild(imageElement)
             const btn = document.createElement("button")
             btn.innerHTML = "AddCaption"

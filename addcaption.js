@@ -100,9 +100,4 @@ canvas.setBackgroundImage(image.webformatURL,
               $(".save").html(canvas.toSVG());
         });
 
-        $("#down").click(function () {
-            var link = document.createElement('a');
-            link.href = canvas.toDataURL();
-            link.download = "mypainting.png";
-            link.click();
-        });
+        
